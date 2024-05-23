@@ -1,0 +1,61 @@
+html,
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "casregular";
+  src: url("menu_icons_font.eot");
+  src: url("menu_icons_font.eot?#iefix") format("embedded-opentype"),
+    url("menu_icons_font.woff2") format("woff2"),
+    url("menu_icons_font.woff") format("woff"),
+    url("menu_icons_font.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.wrapper {
+  padding: 16px;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ico {
+  font-family: "casregular";
+  font-style: normal !important;
+  font-size: 58px;
+  color: #000;
+  width: 48px;
+}
+
+.grp {
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  flex-direction: column;
+  text-align: center;
+  width: calc(10% - 4px);
+  margin: 2px;
+  border-radius: 10px;
+  min-width: 127px;
+  padding: 8px 0;
+}
+
+.text {
+  font-family: "casregular";
+  font-style: normal !important;
+  font-size: 43px;
+  background: #093265;
+  color: #fff;
+  width: 200px;
+}
+
+.grp > span {
+  margin: 0 8px;
+  width: 156px;
+}
